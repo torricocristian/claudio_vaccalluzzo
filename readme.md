@@ -17,6 +17,7 @@ font-family: 'Open Sans', sans-serif;
 
 - ´sass style.scss:style.css --watch´ Con esto esto vamos a hacer que sass quede escuchando nuestros cambios en style.scss y compile en style.css
 
+
 ## Sitemap
 - Home
    - Hero
@@ -29,8 +30,12 @@ font-family: 'Open Sans', sans-serif;
 
 - Sacar frames del video para ponerlo en galerías [ - ]
 - Buscar contenido (imagenes y textos)
+- Hacer el header [ X ]
+- Hacer el hero/banner [ - ] : https://prnt.sc/udaSKnAnFRCD
+- Hacer texto + imagen:  https://prnt.sc/jqe0tjFQaGVf
 
 
 ## Dependencias
 
 - Sass -> Instalar sass https://sass-lang.com/install
+- Swiper ->
