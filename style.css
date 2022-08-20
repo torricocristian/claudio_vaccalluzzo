@@ -1,0 +1,52 @@
+body {
+  background: black; }
+
+header {
+  background: white;
+  padding: 34px 0; }
+  header .container {
+    display: flex;
+    align-items: center; }
+    header .container .logo {
+      margin-right: 70px; }
+      header .container .logo h1 {
+        font-family: "Frank Ruhl Libre", serif;
+        font-size: 24px;
+        line-height: 28px; }
+    header .container nav {
+      display: flex; }
+      header .container nav a {
+        font-size: 16px;
+        line-height: 24px;
+        font-family: "Frank Ruhl Libre", serif;
+        margin-right: 30px;
+        font-weight: 700;
+        position: relative; }
+        header .container nav a:before {
+          content: '';
+          height: 2px;
+          width: 0;
+          position: absolute;
+          left: 0;
+          bottom: -5px;
+          background: #151514;
+          transition: .3s; }
+        header .container nav a:hover:before {
+          width: 100%; }
+    header .container .button {
+      margin-left: auto; }
+
+.button {
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: bold;
+  font-family: "Frank Ruhl Libre", serif;
+  padding: 13px 24px; }
+  .button__primary {
+    color: white;
+    background: #1161c0;
+    transition: .3s; }
+    .button__primary:hover {
+      background: #0f4c94; }
+
+/*# sourceMappingURL=style.css.map */

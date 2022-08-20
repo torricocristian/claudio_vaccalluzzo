@@ -1,0 +1,86 @@
+
+//variables
+$font_2 : 'Frank Ruhl Libre', serif;
+$font_1 : 'Open Sans', sans-serif;
+
+$color_1 : #1161c0;
+$color_2 : #151514;
+
+$color_1_hover: #0f4c94;
+
+body{
+    background: black;
+}
+
+header{
+    background: white;
+    padding: 34px 0;
+
+    .container{
+        display: flex;
+        align-items: center;
+        
+        .logo{
+            margin-right: 70px;
+
+            h1{
+                font-family: $font_2;
+                font-size: 24px;
+                line-height: 28px;
+            }
+        }
+
+        nav{
+            display: flex;
+            a{
+                font-size: 16px;
+                line-height: 24px;
+                font-family: $font_2;
+                margin-right: 30px;
+                font-weight: 700;
+                position: relative;
+
+                &:before{
+                    content: '';
+                    height: 2px;
+                    width: 0;
+                    position: absolute;
+                    left: 0;
+                    bottom: -5px;
+                    background: $color_2;
+                    transition: .3s;
+                }
+
+                &:hover{
+                    &:before{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .button{
+            margin-left: auto;
+        }
+    }
+}
+
+
+//botones
+.button{
+    font-size: 14px;
+    line-height: 22px;
+    font-weight: bold;
+    font-family: $font_2;
+    padding: 13px 24px;
+
+    &__primary{
+        color: white;
+        background: $color_1;
+        transition: .3s;
+
+        &:hover{
+            background: $color_1_hover;
+        }
+    }
+}
