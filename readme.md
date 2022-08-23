@@ -1,7 +1,14 @@
 # Proyecto Claudio Vaccalluzzo
 
-## Referencia de diseño: 
-https://preview.themeforest.net/item/beacon-funeral-home-wordpress-theme-/full_screen_preview/16698416?_ga=2.139059635.1267798697.1661026744-1396074330.1628018909
+En esto proyecto vamos a desarrollar el sitio en honor a Claudio Vaccalluzo.
+
+
+
+## Archivos complementarios:
+
+- [Acá escribimos información complementaria](https://docs.google.com/document/d/11nh4Nw2vYuEDPZZwIL0CXXm5kbh02bttEmbrheqWRGg/edit?usp=sharing)
+- [Nos basamos en este diseño](https://preview.themeforest.net/item/beacon-funeral-home-wordpress-theme-/full_screen_preview/16698416?_ga=2.139059635.1267798697.1661026744-1396074330.1628018909)
+
 
 
 ## Referencia de código:
@@ -38,4 +45,4 @@ font-family: 'Open Sans', sans-serif;
 ## Dependencias
 
 - Sass -> Instalar sass https://sass-lang.com/install
-- Swiper ->
+- Swiper -> Sugerencia para los carrousel
