@@ -8,16 +8,23 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
     <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">   
     <link rel="stylesheet" href="base.css">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     
     <header>
         <div class="container">
             <div class="logo">
-                <h1>Vaccalluzzo 233333333</h1>
+                <h1>Vaccalluzzo</h1>
             </div>
             <nav>
                 <a href="">Home</a>
@@ -27,5 +34,81 @@
         </div>
     </header>
 
+    <section class="hero">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="image/hero1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="image/hero1.jpg" class="d-block w-100" alt="...">
+                </div>
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <div class="container">
+            <h2 class="title__primary">TESTIMONIALS</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <p>The Beacon agency accompanied and directed the funeral ceremony. Our family is grateful for this attentive approach, because you did not stand aside when people did not know what to do and were confused about the correct sequence of events.</p>
+                        <div class="person">
+                            <span class="author">
+                                Margareth Smith
+                            </span>
+                            <span class="position">
+                                Client
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <p>The Beacon agency accompanied and directed the funeral ceremony. Our family is grateful for this attentive approach, because you did not stand aside when people did not know what to do and were confused about the correct sequence of events.</p>
+                        <div class="person">
+                            <span class="author">
+                                Margareth Smith
+                            </span>
+                            <span class="position">
+                                Client
+                            </span>
+                        </div>
+                    </div>
+                 
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+          
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+    </script>
 </body>
 </html>

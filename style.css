@@ -1,6 +1,3 @@
-body {
-  background: black; }
-
 header {
   background: white;
   padding: 34px 0; }
@@ -35,6 +32,23 @@ header {
           width: 100%; }
     header .container .button {
       margin-left: auto; }
+
+.hero {
+  height: 500px; }
+  .hero .carousel-control-prev, .hero .carousel-control-next {
+    background: black;
+    width: 120px; }
+    .hero .carousel-control-prev-icon, .hero .carousel-control-next-icon {
+      filter: invert(0) grayscale(100); }
+  .hero .carousel,
+  .hero .carousel-inner {
+    height: 100%; }
+  .hero .carousel-item {
+    height: 100%; }
+    .hero .carousel-item img {
+      height: 100%;
+      object-fit: cover;
+      width: 100%; }
 
 .button {
   font-size: 14px;

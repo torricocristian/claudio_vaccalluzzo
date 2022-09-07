@@ -1,13 +1,12 @@
 # Proyecto Claudio Vaccalluzzo
 
-En esto proyecto vamos a desarrollar el sitio del instituto
-
+En esto proyecto vamos desarrollar un sitio estático, simulado del Terciario.
 
 
 ## Archivos complementarios:
 
 - [Acá escribimos información complementaria](https://docs.google.com/document/d/11nh4Nw2vYuEDPZZwIL0CXXm5kbh02bttEmbrheqWRGg/edit?usp=sharing)
-- [Nos basamos en este diseño](https://preview.themeforest.net/item/beacon-funeral-home-wordpress-theme-/full_screen_preview/16698416?_ga=2.139059635.1267798697.1661026744-1396074330.1628018909)
+- [Nos basamos en este diseño](https://beacon.themerex.net/)
 - [Idea que tenía Claudio](https://lujanpreceptoria.wixsite.com/lujan2020/inicio)
 
 

@@ -9,7 +9,6 @@ $color_2 : #151514;
 $color_1_hover: #0f4c94;
 
 body{
-    background: black;
 }
 
 header{
@@ -66,6 +65,37 @@ header{
 }
 
 
+.hero{
+    height: 500px;
+
+    .carousel-control{
+        &-prev, 
+        &-next{
+            background: black;
+            width: 120px;
+
+            &-icon{
+                filter: invert(0) grayscale(100);
+            }
+        }
+    }
+
+    .carousel,
+    .carousel-inner{
+        height: 100%;
+    }
+
+    .carousel-item{
+        height: 100%;
+
+       img{
+        height: 100%;
+        object-fit: cover;
+        width: 100%;
+       }
+    }
+}
+
 //botones
 .button{
     font-size: 14px;
@@ -83,4 +113,9 @@ header{
             background: $color_1_hover;
         }
     }
+}
+
+
+#testimonios{
+    
 }
