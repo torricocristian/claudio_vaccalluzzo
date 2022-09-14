@@ -1,3 +1,9 @@
+.title__primary {
+  font-size: 56px;
+  line-height: 56px;
+  font-family: "Frank Ruhl Libre", serif;
+  font-weight: 500; }
+
 header {
   background: white;
   padding: 34px 0; }
@@ -62,5 +68,78 @@ header {
     transition: .3s; }
     .button__primary:hover {
       background: #0f4c94; }
+
+#testimonios {
+  padding: 80px 0;
+  padding-bottom: 100px; }
+  #testimonios .container {
+    max-width: 900px;
+    position: relative;
+    text-align: center; }
+    #testimonios .container .title__primary {
+      margin-bottom: 50px; }
+    #testimonios .container .swiper-pagination {
+      bottom: -40px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #testimonios .container .swiper-pagination .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        transition: .3s;
+        margin: 0 8px; }
+        #testimonios .container .swiper-pagination .swiper-pagination-bullet-active {
+          background: #1161c0;
+          width: 15px;
+          height: 15px; }
+    #testimonios .container .swiper-slide p.desc {
+      font-size: 22px;
+      line-height: 36px;
+      text-align: center;
+      font-family: "Frank Ruhl Libre", serif; }
+    #testimonios .container .swiper-slide .person {
+      display: flex;
+      flex-direction: column;
+      margin-top: 30px; }
+      #testimonios .container .swiper-slide .person .author {
+        font-weight: bold;
+        margin-bottom: 2px;
+        font-family: "Frank Ruhl Libre", serif;
+        font-size: 20px;
+        line-height: 22px; }
+      #testimonios .container .swiper-slide .person .position {
+        color: #84867F;
+        font-size: 15px; }
+
+@media (max-width: 800px) {
+  .title__primary {
+    font-size: 42px;
+    line-height: 42px; }
+
+  #testimonios {
+    padding: 60px 0;
+    padding-bottom: 80px; }
+    #testimonios .container .title__primary {
+      margin-bottom: 30px; }
+    #testimonios .container .swiper-slide p.desc {
+      font-size: 18px;
+      line-height: 28px; }
+    #testimonios .container .swiper-slide .person .author {
+      font-size: 18px;
+      line-height: 28px; } }
+@media (max-width: 499px) {
+  .title__primary {
+    font-size: 28px;
+    line-height: 28px; }
+
+  #testimonios {
+    padding: 40px 0;
+    padding-bottom: 60px; }
+
+  #testimonios .container .title__primary {
+    margin-bottom: 20px; }
+  #testimonios .container .swiper-slide p.desc {
+    font-size: 16px;
+    line-height: 24px; } }
 
 /*# sourceMappingURL=style.css.map */

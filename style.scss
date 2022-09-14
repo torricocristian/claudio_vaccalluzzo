@@ -8,6 +8,15 @@ $color_2 : #151514;
 
 $color_1_hover: #0f4c94;
 
+
+//componentes  
+.title__primary{
+    font-size: 56px;
+    line-height: 56px;
+    font-family: $font_2;
+    font-weight: 500;
+}
+
 body{
 }
 
@@ -117,5 +126,123 @@ header{
 
 
 #testimonios{
-    
+    padding: 80px 0;
+    padding-bottom: 100px;
+
+    .container{
+        max-width: 900px;
+        position: relative;
+        text-align: center;
+
+        .title__primary{
+            margin-bottom: 50px;
+        }
+
+        .swiper-pagination{
+            bottom: -40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .swiper-pagination-bullet{
+                width: 12px;
+                height: 12px;
+                transition: .3s;
+                margin: 0 8px;
+
+                &-active{
+                    background: $color_1;
+                    width: 15px;
+                    height: 15px;
+                }
+            }
+        }
+
+        .swiper-slide{
+            p.desc{
+                font-size: 22px;
+                line-height: 36px;
+                text-align: center;
+                font-family: $font_2;
+            }
+
+            .person{
+                display: flex;
+                flex-direction: column;
+                margin-top: 30px;
+
+                .author{
+                    font-weight: bold;
+                    margin-bottom: 2px;
+                    font-family: $font_2;
+                    font-size: 20px;
+                    line-height: 22px;
+                }
+
+                .position{
+                    color: #84867F;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
 }
+
+
+@media (max-width: 800px) {
+
+    .title__primary{
+        font-size: 42px;
+        line-height: 42px;
+    }
+
+    #testimonios{
+        padding: 60px 0;
+        padding-bottom: 80px;
+
+        .container{
+
+            .title__primary{
+                margin-bottom: 30px;
+            }
+
+            .swiper-slide{
+                p.desc{
+                    font-size: 18px;
+                    line-height: 28px;
+                }
+
+                .person{
+                    .author{
+                        font-size: 18px;
+                        line-height: 28px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 499px) {
+    .title__primary {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    #testimonios {
+        padding: 40px 0;
+        padding-bottom: 60px;
+    }
+
+    #testimonios .container {
+        .title__primary{
+            margin-bottom: 20px;
+        }
+
+        .swiper-slide p.desc{
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+}
+
