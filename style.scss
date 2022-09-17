@@ -122,6 +122,16 @@ header{
             background: $color_1_hover;
         }
     }
+    &__secundary{
+        color: white;
+        background: $color_1;
+        transition: .3s;
+        height: 110px;
+
+        &:hover{
+            background: $color_1_hover;
+        }
+    }
 }
 
 

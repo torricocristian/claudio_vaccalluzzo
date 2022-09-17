@@ -3,6 +3,7 @@
   line-height: 56px;
   font-family: "Frank Ruhl Libre", serif;
   font-weight: 500;
+  
 }
 
 header {
@@ -95,15 +96,29 @@ header .container .button {
   padding: 13px 24px;
 }
 
-.button__primary {
+.button__secundary{
   color: white;
   background: #1161c0;
   transition: .3s;
 }
 
+.button__secundary{
+  color: white;
+  background: #1161c0;
+  transition: .3s;
+ 
+}
+
 .button__primary:hover {
   background: #0f4c94;
 }
+
+.button__secundary:hover {
+  background: #0f4c94;
+ 
+}
+
+
 
 #testimonios {
   padding: 80px 0;
@@ -227,12 +242,19 @@ header .container .button {
 }
 
 .elementor-row {
-  width: 100%;
-  display: webkit-box;
+  width: 95%;
+
   display: flex;
 
 
 }
+
+#foto{
+  margin: 160px 10px 0 110px;
+}
+.elementor-section {
+  position: relative;
+} 
 
 .elementor-element {
   text-align: left;
@@ -248,7 +270,96 @@ header .container .button {
 }
 
 .elementor-element.elementor-element-f7bddfe {
-  width: 51%;
+  width: 1290px;
+ 
 }
 
+
 /*# sourceMappingURL=style.css.map */
+
+.elementor-17825 .elementor-element.elementor-element-8578c2b:not(.elementor-motion-effects-element-type-background), .elementor-17825 .elementor-element.elementor-element-8578c2b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+  background-color: #FFFFFF;
+}
+
+.subtirulo{
+  height: 110px;
+}
+
+.title{
+  height: 170px;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+*{ /*Sacamos la fuente de googleFont, e importamos/compiamos la deseada*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*establece como se calcula el ancho y alto total de un elemento.*/
+    font-family: 'Open Sans', sans-serif; /*define una lista de fuentes , con un orden de prioridad, para utilizar en un elemento seleccionado*/
+}
+/*:::::Pie de Pagina*/
+.pie-pagina{
+    width: 100%;
+    background-color: #0c1620;
+}
+.pie-pagina .grupo-1{ /*la caja principal*/
+    width: 100%; /* ancho y alto */
+    max-width: 1200px; /*centra la caja propiamente dicja*/
+    margin: auto; /* ajusta los margenees*/
+    display: grid;  /*La declaración display: grid te proporciona una cuadrícula de una sola columna, por lo que tus elementos continúan mostrándose uno debajo del otro, como lo hacen en el flujo normal. Para ve*/
+    grid-template-columns: repeat(3, 1fr); /*¿Qué es el grid-Template-Columns?
+    La propiedad CSS grid-template-columns define el nombre de las líneas y las funciones de tamaño de línea de grid columns;*/
+    
+    padding: 45px ;  /* es el espacio entre el contenido del elemento y su borde ( border ). No se permiten valores negativos.*/
+}
+.pie-pagina .grupo-1 .box figure{ /*netamente de la imagen*/
+    width: 100%;
+    height: 100%;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+.pie-pagina .grupo-2{
+    background-color: #0a1a2a;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+.pie-pagina .grupo-2 small{
+    font-size: 15px;
+}
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
