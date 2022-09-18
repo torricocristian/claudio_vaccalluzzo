@@ -96,7 +96,7 @@ header .container .button {
   padding: 13px 24px;
 }
 
-.button__secundary{
+.button__primary{
   color: white;
   background: #1161c0;
   transition: .3s;
@@ -106,6 +106,7 @@ header .container .button {
   color: white;
   background: #1161c0;
   transition: .3s;
+  line-height: 40px;
  
 }
 
@@ -235,8 +236,8 @@ header .container .button {
 }
 
 .noticias {
-  margin: 130px;
-  max-width: 100%;
+  margin: 90px;
+  max-width: 500%;
   height: auto;
   vertical-align: top;
 }
@@ -259,6 +260,7 @@ header .container .button {
 .elementor-element {
   text-align: left;
   max-width: 84.31%;
+  
 }
 
 .elementor-widget-wrap {
@@ -270,15 +272,9 @@ header .container .button {
 }
 
 .elementor-element.elementor-element-f7bddfe {
-  width: 1290px;
- 
-}
-
-
-/*# sourceMappingURL=style.css.map */
-
-.elementor-17825 .elementor-element.elementor-element-8578c2b:not(.elementor-motion-effects-element-type-background), .elementor-17825 .elementor-element.elementor-element-8578c2b > .elementor-motion-effects-container > .elementor-motion-effects-layer {
   background-color: #FFFFFF;
+  width: 900px;
+ 
 }
 
 .subtirulo{
@@ -289,6 +285,26 @@ header .container .button {
   height: 170px;
 }
 
+@media (max-width: 499px) {
+  .title .title__primary{
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  #novedades {
+    padding: 40px 0;
+    padding-bottom: 60px;
+  }
+
+  #novedades .elementor-row .title .title__primary{
+    margin-bottom: 20px;
+  }
+
+  #novedades .elementor-row .elementor-element .elementor-widget-wrap {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{ /*Sacamos la fuente de googleFont, e importamos/compiamos la deseada*/
