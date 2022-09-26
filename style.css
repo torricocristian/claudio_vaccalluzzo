@@ -110,6 +110,7 @@ header .container .button {
  
 }
 
+
 .button__primary:hover {
   background: #0f4c94;
 }
@@ -231,13 +232,12 @@ header .container .button {
 
 
 #novedades {
-  padding: 10px 0;
+  padding: 90px 0;
   
 }
 
 .noticias {
-  margin: 90px;
-  max-width: 500%;
+
   height: auto;
   vertical-align: top;
 }
@@ -250,15 +250,14 @@ header .container .button {
 
 }
 
-#foto{
-  margin: 160px 10px 0 110px;
-}
+
 .elementor-section {
   position: relative;
 } 
 
 .elementor-element {
   text-align: left;
+
   max-width: 84.31%;
   
 }
@@ -269,6 +268,11 @@ header .container .button {
   flex-wrap: wrap;
   align-content: flex-start;
 
+}
+
+.elementor-image{
+
+  margin: 0 90px 0 0;
 }
 
 .elementor-element.elementor-element-f7bddfe {
@@ -285,26 +289,7 @@ header .container .button {
   height: 170px;
 }
 
-@media (max-width: 499px) {
-  .title .title__primary{
-    font-size: 28px;
-    line-height: 28px;
-  }
 
-  #novedades {
-    padding: 40px 0;
-    padding-bottom: 60px;
-  }
-
-  #novedades .elementor-row .title .title__primary{
-    margin-bottom: 20px;
-  }
-
-  #novedades .elementor-row .elementor-element .elementor-widget-wrap {
-    font-size: 16px;
-    line-height: 24px;
-  }
-}
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 *{ /*Sacamos la fuente de googleFont, e importamos/compiamos la deseada*/
@@ -379,3 +364,53 @@ header .container .button {
         padding: 35px 0px;
     }
 }
+
+.pie-pagina3{
+  width: 100%;
+  background-color: #f7fbff;
+}
+.pie-pagina3 .grupo-13{ /*la caja principal*/
+  width: 100%; /* ancho y alto */
+  max-width: 1350px; /*centra la caja propiamente dicja*/
+  margin: auto; /* ajusta los margenees*/
+  display: grid;  /*La declaración display: grid te proporciona una cuadrícula de una sola columna, por lo que tus elementos continúan mostrándose uno debajo del otro, como lo hacen en el flujo normal. Para ve*/
+  grid-template-columns: repeat(3, 1fr); /*¿Qué es el grid-Template-Columns?
+  La propiedad CSS grid-template-columns define el nombre de las líneas y las funciones de tamaño de línea de grid columns;*/
+  
+  padding: 45px ;  /* es el espacio entre el contenido del elemento y su borde ( border ). No se permiten valores negativos.*/
+}
+
+
+@media screen and (max-width:800px){
+  .pie-pagina3 .grupo-13{
+      width: 90%;
+      grid-template-columns: repeat(1, 1fr);
+      grid-gap:30px;
+      padding: 35px 0px;
+  }
+}
+
+
+@media (max-width: 499px) {
+  .title__primary {
+    font-size: 28px;
+    line-height: 28px;
+  }
+
+  .pie-pagina3 {
+    padding: 40px 0;
+    padding-bottom: 60px;
+  }
+
+  .pie-pagina3 .grupo-13 .title__primary {
+    margin-bottom: 20px;
+  }
+
+  .pie-pagina3 .grupo-13 .swiper-slide p.desc {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+
+
