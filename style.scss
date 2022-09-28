@@ -105,6 +105,31 @@ header{
     }
 }
 
+.about-us{
+    .container{
+        display : flex;
+        align-items: center;
+
+        .media{
+
+        }
+
+        .data{
+            padding-left: 50px;
+            
+            .title__primary{
+                margin-bottom: 30px;
+            }
+    
+            .button{
+                margin-top: 20px;
+                display: inline-flex;
+            }
+        }
+        
+    }
+}
+
 //botones
 .button{
     font-size: 14px;
