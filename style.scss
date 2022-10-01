@@ -8,6 +8,8 @@ $color_2 : #151514;
 
 $color_1_hover: #0f4c94;
 
+@import 'sass/components/footer';
+@import 'sass/components/section-carreras';
 
 //componentes  
 .title__primary{
@@ -106,16 +108,24 @@ header{
 }
 
 .about-us{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
     .container{
         display : flex;
         align-items: center;
 
         .media{
+            width: 480px;
 
+            img{
+                width: 100%;
+            }
         }
 
         .data{
             padding-left: 50px;
+            width: calc(100% - 480px);
             
             .title__primary{
                 margin-bottom: 30px;
@@ -257,6 +267,27 @@ header{
                         line-height: 28px;
                     }
                 }
+            }
+        }
+    }
+
+    .about-us {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        
+        .container{
+            flex-direction: column-reverse;
+    
+            .data{
+                padding: 0;
+                width: 100%;
+                margin-bottom: 40px;
+                text-align: center;
+            }
+
+            .media{
+                width: 100%;
+                max-width: 380px;
             }
         }
     }
