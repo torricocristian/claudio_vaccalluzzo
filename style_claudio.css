@@ -187,8 +187,21 @@ img{
 }
 
 
+.texto{
+    
+    margin: 50px;
 
+}
+.texto>p{
 
+    text-align: center;
+    width: 70%;
+    margin: auto;
+}
+
+.comentarios{
+    margin-top: 100px;
+}
 
 @media screen and (min-width:769px) and (max-width:1021px){
     
