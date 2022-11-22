@@ -31,7 +31,7 @@ header{
         align-items: center;
         
         .logo{
-            margin-right: 70px;
+            margin-right: 50px;
 
             img{
                 font-family: $font_2;
@@ -244,14 +244,15 @@ header{
         font-size: 42px;
         line-height: 42px;
     }
+ 
 
-    #testimonios{
+    #testimonios{ 
         padding: 60px 0;
         padding-bottom: 80px;
 
         .container{
 
-            .title__primary{
+            .title__primary {
                 margin-bottom: 30px;
             }
 
@@ -304,6 +305,8 @@ header{
         padding-bottom: 60px;
     }
 
+   
+
     #testimonios .container {
         .title__primary{
             margin-bottom: 20px;
@@ -315,5 +318,4 @@ header{
         }
     }
 }
-
 
