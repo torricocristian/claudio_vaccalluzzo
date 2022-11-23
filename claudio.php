@@ -1,54 +1,32 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php 
+    //incluir header
+    include_once 'includes/header.php';
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    $page = 'claudio';
+?>
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
-
-    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
-    
-    
-    <link href="css/lightbox.min.css" rel="stylesheet">
-
-   
-    <link rel="stylesheet" href="base.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="style_claudio.css">
-    
-</head>
 
 <body>
 
-    <header>
+    <?php
+        //incluir menu
+        include_once 'includes/menu.php';
+    ?>
+
+    <section id="title-block">
         <div class="container">
-            <div class="logo">
-                    <a href="#">
-                        <img src="image/logoPrincial.png" alt="Logo del instituto">
-                    </a>
-                <!--<h1>Instituto Nuestra Señora De Lujan</h1>-->
-            </div>
-            <nav>
-                <a href="index.html">Home</a>
-                <a href="">Testimonios</a>
-                <a href="claudio.html">Claudio vaccalluzzo</a>
-            </nav>
-            <a href="http://lujanbuenviaje.edu.ar/moodle2/my/" class="button button__primary">Book Online</a>
-         
+            <h1 class="title__primary">
+                Claudio Vaccalluzzo
+            </h1>
         </div>
-    </header>
+    </section>
 
     <div id="fb-root"></div>
     <script async defer crossorigin="anonymous" src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&version=v15.0" nonce="7398IHqf"></script>
     <!-- .gallery>img[src=image/img_claudio/$.jpg alt=foto_claudio_vacalluzzo]*41 -->
 
 
-    <div class="texto">
+    <div class="texto container">
         <p>Rendimos este humilde homenaje a nuestro querido Profesor Claudio Vaccalluzzo, no solo a su trayectoria docente en nuestra institución sino también al compromiso, dedicación y disponibilidad con la comunidad educativa y parroquial Luján del Buen Viaje de Loma Hermosa</p>
     </div>
 
@@ -188,7 +166,56 @@
     </div>
 
     
-<div class="container-fluid comentarios">
+
+    <section id="testimonios">
+        <div class="container">
+            <h2 class="title__primary">Alumnos x Claudio</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+     
+                    <div class="swiper-slide">
+                        <p class="desc">
+                            Gracias a Claudio Vaccalluzzo me surgió la pasión por arduino y la programación.
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                                Dante Kempfen
+                            </span>
+                            <span class="position">
+                                Alumno
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <p class="desc">
+                            Gracias a Claudio Vaccalluzzo me surgió la pasión por arduino y la programación.
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                                Dante Kempfen
+                            </span>
+                            <span class="position">
+                                Alumno
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+
+        </div>
+    </section>
+
+
+    
+
+
+<div class="container comentarios">
    
     <section class="">
         
@@ -201,85 +228,11 @@
 </div>
 
 
-<footer class="pie-pagina">
-    <div class="grupo-1">
-        <div class="container">
-            <div class="box">
-                <figure>
-                    <a href="#">
-                        <img src="image/logoBV.png" alt="Logo del instituto">
-                    </a>
-                </figure>
-            </div>
-            <div class="box">
-                <h2>SOBRE NOSOTROS</h2>
-                <p>Ruta 8 Nº6725 - San Martín </p>
-                <p> Buenos Aires (1650)</p>
-                <p>Teléfono : (011) 4769-0123 / 0615 </p>
-                <p>Correo electrónico: </p>
-                <p><b>terciario@lujanbuenviaje.edu.ar</b></p>
-            </div>
-            <div class="box">
-                <h2>SIGUENOS</h2>
-                <div class="red-social">
-                    <a href="https://www.facebook.com/TerciarioBuenViaje" class="fa fa-facebook"
-                        target="_blank"></a>
-                    <a href="https://www.instagram.com/terciariolujanbuenviaje/" class="fa fa-instagram"
-                        target="_blank"></a>
-                    <a href="mailto:elcorreoquequieres@correo.com" class="fa fa-twitter" target="_blank"></a>
+   
 
 
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="grupo-2">
-        <div class="container">
-            <small>&copy; 2022 <b>Instituto Superior Nuestra Señora de Luján del Buen Viaje</b> - Todos los Derechos
-                Reservados.</small>
-        </div>
-    </div>
-    </div>
-</footer>
+<?php 
+    //incluir footer
+    include_once 'includes/footer.php';
+?>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
-
-    
-<!--  -->
-    <script>
-
-        let num =[];
-
-        let cantidad=41;
-
-        for (let i=1; i<=cantidad;i++){
-           
-            num.push(i)
-
-        }
-
-        let galeria=document.querySelector(".gallery");
-
-        for(i of num){
-
-            //let div=document.createElement("div")
-            //let figure=document.createElement("figure")
-            //let img=document.createElement("img");
-
-            //img.setAttribute("src","image/img_claudio/"+i+".jpg")
-            //img.setAttribute("alt","foto_claudio_vacalluzzo")
-            //figure.appendChild(img)
-            //div.appendChild(figure)
-            //galeria.appendChild(img)
-
-
-           galeria.innerHTML+= `  <a href="image/img_claudio/${i}.jpg" rel="lightbox" data-lightbox="roadtrip"> <figure><img src="image/img_claudio/${i}.jpg"  alt="foto_claudio_vacalluzzo"> <span class='fa fa-camera'></span> </figure> </a> `
-        }
-        //<i class='fa fa-instagram '></i>
-
-    </script>
-
-    <script src="js/lightbox-plus-jquery.min.js"></script>
-</body>
-
-</html>
