@@ -16,10 +16,16 @@ var swiper = new Swiper("#testimonios .mySwiper", {
 // ready jquery
 $(document).ready(function() {
 
+    $("#menu_checkbox").change(function() {
+        if(this.checked) {
+          $('body').css('overflow','hidden');
+        }else{
+          $('body').css('overflow','initial');
+        }
+    });
+
 
     $('#enviar_contacto').click(function(e){
-
-        console.log('asd');
 
         e.preventDefault();
 
