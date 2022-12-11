@@ -10,6 +10,7 @@
             <nav>
                 <a href="index.php" class="<?= $page == 'home' ? 'active' : '' ?>">Home</a>
                 <a href="claudio.php" class="<?= $page == 'claudio' ? 'active' : '' ?>">Claudio vaccalluzzo</a>
+                <a href="contacto.php" class="<?= $page == 'contacto' ? 'active' : '' ?>">Contacto</a>
             </nav>
             <a href="http://lujanbuenviaje.edu.ar/moodle2/my/" class="button button__primary">Aula Virtual</a>
 

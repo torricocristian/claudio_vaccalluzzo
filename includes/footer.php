@@ -25,7 +25,7 @@
                             target="_blank"></a>
                         <a href="https://www.instagram.com/terciariolujanbuenviaje/" class="fa fa-instagram"
                             target="_blank"></a>
-                        <a href="mailto:elcorreoquequieres@correo.com" class="fa fa-twitter" target="_blank"></a>
+                        <a href="mailto:claudia.e1902@gmail.com" class="fa fa-envelope" target="_blank"></a>
 
 
                     </div>
@@ -61,6 +61,8 @@
     
     <?php endif ?>
 
+    <!-- get jquery from cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>

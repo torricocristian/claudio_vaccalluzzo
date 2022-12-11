@@ -1,0 +1,147 @@
+#contacto{
+    .info{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+
+        .item{
+            flex: 1;
+            justify-content: center;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            padding: 0 10px;
+
+            i{
+                font-size: 54px;
+                color: #BF9578;
+                margin-bottom: 20px;
+            }
+
+            h3{
+                color: #151514;
+                font-size: 24px;
+                line-height: 28px;
+                font-family: $font_2;
+                margin-bottom: 5px;
+            }
+
+            p{
+                font-size: 17px;
+                line-height: 27px;
+                color: #6B6E69;
+            }
+        }
+    }
+}
+
+#form-contacto{
+    margin-bottom: 60px;
+    .container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        max-width: 940px;
+
+        .title__secondary{
+            margin-bottom: 20px;
+        }
+
+        form{
+            display: flex;
+            flex-wrap: wrap;
+
+            &.enviado{
+                margin-bottom: 60px;
+            }
+
+            .input{
+                width: calc( (100% / 3) - 12px );
+                margin-left: 18px;
+                margin-bottom: 18px;
+
+                &:first-child{
+                    margin-left: 0;
+                }
+
+                label{
+
+                }
+
+                input,
+                textarea{
+                    width: 100%;
+                    border: 0;
+                    padding: 13px 10px;
+                    box-shadow: 0 15px 15px -14px #0000001a;
+                    font-size: 16px;
+                    line-height: 20px;
+                    border-bottom: 2px solid #d7d5d5;
+                    resize: none;
+                }
+
+                &.mensaje{
+                    width: 100%;
+                    margin-left: 0;
+                    
+                }
+
+                &.enviar{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 100%;
+                    margin-top: 10px;
+
+                    input{
+                        max-width: 240px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px){
+    #contacto .info{
+        flex-direction: column;
+        margin-bottom: 60px;
+
+        .item {
+            margin-bottom: 20px;
+
+            i{
+                font-size: 38px;
+                margin-bottom: 5px;
+            }
+
+            h3{
+                font-size: 18px;
+                line-height: 24px;
+                margin-bottom: -2px;
+            }
+
+            p{
+                font-size: 14px;
+                line-height: 24px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 499px){
+    #form-contacto .container {
+        .title__secondary {
+            margin-bottom: 10px;
+    
+            
+        }
+
+        form .input{
+            width: 100%;
+            margin-left: 0;
+        }
+    }
+}

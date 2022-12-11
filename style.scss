@@ -10,11 +10,53 @@ $color_1_hover: #0f4c94;
 
 @import 'sass/components/footer';
 @import 'sass/components/section-carreras';
+@import 'sass/pages/contacto';
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0,0,0,0);
+    border: 0;
+}
+
+.notice-error{
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeeba;
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 15px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    opacity: 0;
+    transition: .3s;
+    font-weight: 500;
+}
+
+.disabled{
+    opacity: .5;
+    pointer-events: none;
+}
 
 //componentes  
 .title__primary{
     font-size: 56px;
     line-height: 56px;
+    font-family: $font_2;
+    font-weight: 500;
+}
+
+.title__secondary{
+    font-size: 46px;
+    line-height: 46px;
     font-family: $font_2;
     font-weight: 500;
 }
@@ -321,6 +363,11 @@ header{
         font-size: 42px;
         line-height: 42px;
     }
+
+    .title__secondary{
+        font-size: 35px;
+        line-height: 35px;
+    }
  
 
     #testimonios{ 
@@ -396,6 +443,11 @@ header{
     .title__primary {
         font-size: 28px;
         line-height: 28px;
+    }
+    
+    .title__secondary {
+        font-size: 22px;
+        line-height: 22px;
     }
 
     #testimonios {

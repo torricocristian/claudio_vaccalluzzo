@@ -55,14 +55,9 @@
             <div class="data">
                 <h1 class="title__primary">Nuestro instituto</h1>
                 <!-- Descripción de un instituto terciario analista de sistemas-->
-                <p>El Instituto Nuestra Señora de Luján es un establecimiento educativo de gestión privada
-                    que brinda educación y terciaria. Nuestro objetivo es formar profesionales con una sólida
-                    formación académica y valores humanos, que sean capaces de enfrentar los desafíos de la sociedad
-                    actual.</p>
-                <p>Nuestra misión es formar profesionales con una sólida formación académica y valores humanos, que sean capaces de
-                    enfrentar los desafíos de la sociedad actual.</p>
-                <p>Nuestra visión es ser un instituto de referencia en la formación de profesionales con una sólida formación
-                    académica y valores humanos.</p>
+                <p>El Instituto Superior Nuestra Señora del Buen Viaje nace a partir una misión evangelizadora de la Comunidad Parroquial de Luján del Buen Viaje con el objetivo de promover la dignidad del hombre en la comunidad de Loma Hermosa y sus alrededores.</p>
+                <p>Desde el Instituto Superior Nuestra Señora del Buen Viaje se promueve la formación de profesionales desde una perspectiva evangelizadora y con la misión de formar técnicos con formación específica en lo que respecta al ámbito de la informática con competencias profesionales sólidas en áreas ocupacionales específicas de análisis de sistemas y redes informáticas.</p>
+                <p>Garanticen a los alumnos y alumnas el acceso a una base de capacidades profesionales y saberes que les permita su inserción en el mundo del trabajo, así como continuar aprendiendo durante toda su vida. Como visión la institución se propone ser referente a través de la producción y transmisión de conocimientos y valores que procuren la mejora en la calidad de vida de la comunidad en su conjunto.</p>
 
             </div>
         </div>
@@ -112,7 +107,7 @@
 
                     <div class="swiper-slide">
                         <p class="desc">
-                            Pude tener mi primer acercamiento a la programación gracias a la formación recibida en el Instituto Nuestra Señora de Luján del Buen Viaje. Brindandome los conocimientos necesarios para poder desarrollarme en el área.
+                            Pude tener mi primer acercamiento a la programación gracias a la formación recibida en el Instituto Superior Técnico Nuestra Señora del Buen Viaje que me brindó los conocimientos necesarios para poder desarrollarme en el área.
                         </p>
                         <div class="person">
                             <span class="author">
