@@ -67,14 +67,14 @@
         <div class="container">
             <h2 class="title__primary">Carreras</h2>
 
-            <a href="" class="card">
+            <a href="image/analista_sistemas.pdf" class="card" target="_blank">
                 <img src="image/redes.jpeg" src="Analista de Sistemas" />
                 <div class="centrado">
                     Analista de Sistemas
                     <span class="button button__secundary">Ver más</span>
                 </div>
             </a>
-            <a href="" class="card">
+            <a href="image/redes_informaticas.pdf" class="card" target="_blank">
                 <img src="image/analista.jpeg" src="Redes Informática" />
                 <div class="centrado">
                     Redes Informática
