@@ -13,7 +13,7 @@
                     <h2>SOBRE NOSOTROS</h2>
                     <p>Ruta 8 Nº6725 - San Martín </p>
                     <p> Buenos Aires (1650)</p>
-                    <p>Teléfono : (011) 4769-0123 / 0615 </p>
+                    <p>Teléfono : (011) 5263-2395 </p>
                     <p>Correo electrónico: </p>
                     <p><b>terciario@lujanbuenviaje.edu.ar</b></p>
                 </div>

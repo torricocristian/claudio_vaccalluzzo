@@ -9,7 +9,7 @@
 
             <div class="logo">
                 <a href="index.php">
-                    <img src="image/logoPrincial.png" alt="Logo del instituto">
+                    <img src="image/logo_terciario.jpg" alt="Logo del instituto">
                 </a>
                 <!--<h1>Instituto Nuestra Señora De Lujan</h1>-->
             </div>

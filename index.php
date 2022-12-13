@@ -56,9 +56,8 @@
                 <h1 class="title__primary">Nuestro instituto</h1>
                 <!-- Descripción de un instituto terciario analista de sistemas-->
                 <p>El Instituto Superior Nuestra Señora del Buen Viaje nace a partir una misión evangelizadora de la Comunidad Parroquial de Luján del Buen Viaje con el objetivo de promover la dignidad del hombre en la comunidad de Loma Hermosa y sus alrededores.</p>
-                <p>Desde el Instituto Superior Nuestra Señora del Buen Viaje se promueve la formación de profesionales desde una perspectiva evangelizadora y con la misión de formar técnicos con formación específica en lo que respecta al ámbito de la informática con competencias profesionales sólidas en áreas ocupacionales específicas de análisis de sistemas y redes informáticas.</p>
-                <p>Garanticen a los alumnos y alumnas el acceso a una base de capacidades profesionales y saberes que les permita su inserción en el mundo del trabajo, así como continuar aprendiendo durante toda su vida. Como visión la institución se propone ser referente a través de la producción y transmisión de conocimientos y valores que procuren la mejora en la calidad de vida de la comunidad en su conjunto.</p>
-
+                <p>Desde el Instituto Superior Nuestra Señora del Buen Viaje se promueve la formación de profesionales desde una perspectiva evangelizadora y con la misión de formar técnicos con formación específica en lo que respecta al ámbito de la informática con competencias profesionales sólidas en áreas ocupacionales específicas de análisis de sistemas y redes informáticas, y que garanticen a los alumnos y alumnas el acceso a una base de capacidades profesionales y saberes que les permita su inserción en el mundo del trabajo, así como continuar aprendiendo durante toda su vida.</p>
+                <p>Como visión la institución se propone ser referente a través de la producción y transmisión de conocimientos y valores que procuren la mejora en la calidad de vida de la comunidad en su conjunto.</p>
             </div>
         </div>
     </section>
@@ -75,7 +74,7 @@
                 </div>
             </a>
             <a href="image/redes_informaticas.pdf" class="card" target="_blank">
-                <img src="image/analista.jpeg" src="Redes Informática" />
+                <img src="image/analista.jpeg" src="Redes Informáticas" />
                 <div class="centrado">
                     Redes Informática
                     <span class="button button__secundary">Ver más</span>

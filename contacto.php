@@ -44,7 +44,7 @@
                     <i class="fa fa-phone"></i>
                     <h3>Contáctenos</h3>
                     <p>
-                        Teléfono: (011) 4769-0123 / 0615
+                        Teléfono: (011) 5263-2395
                     </p>
                 </div>
             </div>
