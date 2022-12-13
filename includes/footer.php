@@ -1,5 +1,4 @@
 
-
     <footer class="pie-pagina">
         <div class="grupo-1">
             <div class="container">
@@ -25,9 +24,9 @@
                             target="_blank"></a>
                         <a href="https://www.instagram.com/terciariolujanbuenviaje/" class="fa fa-instagram"
                             target="_blank"></a>
-                        <a href="mailto:claudia.e1902@gmail.com" class="fa fa-envelope" target="_blank"></a>
-
-
+                        <a href="mailto:terciario@lujanbuenviaje.edu.ar" class="fa fa-envelope" target="_blank"></a>
+                        <a href="https://wa.me/541127462620?text=Me%20gustaría%20saber%20como%20inscribirme%20en%20el%20instituto"
+                        target="_blank"><i class="fa fa-whatsapp whatsapp-icon"></i></a>
                     </div>
                 </div>
             </div>

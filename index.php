@@ -86,6 +86,7 @@
 
 
 
+
     <section id="testimonios">
         <div class="container">
             <h2 class="title__primary">Testimonios</h2>
@@ -107,7 +108,7 @@
 
                     <div class="swiper-slide">
                         <p class="desc">
-                            Pude tener mi primer acercamiento a la programación gracias a la formación recibida en el Instituto Superior Técnico Nuestra Señora del Buen Viaje que me brindó los conocimientos necesarios para poder desarrollarme en el área.
+                            Pude tener mi primer acercamiento a la programación gracias a la formación recibida en el Instituto Nuestra Señora de Luján del Buen Viaje. Brindandome los conocimientos necesarios para poder desarrollarme en el área.
                         </p>
                         <div class="person">
                             <span class="author">
@@ -119,9 +120,64 @@
                         </div>
                     </div>
 
- 
+                    <div class="swiper-slide">
+                        <p class="desc">
+                        Brinda una excelente oportunidad de desarrollo profesional para los jóvenes.
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                                Walter Alejandro Diosquez
+                            </span>
+                            <span class="position">
+                                Alumno
+                            </span>
+                        </div>
+                    </div>
 
+                    <div class="swiper-slide">
+                        <p class="desc">
+                        Se dictan carreras terciarias en informática, desde hace 25 años, en la actualidad se dictan: Analista de Sistemas y Tec. Sup.
+                         en Redes Informáticas. Ambas carreras poseen título oficial de validez nacional.
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                              Marcos Cruceño
+                            </span>
+                            <span class="position">
+                                Profesor
+                            </span>
+                        </div>
+                    </div>
 
+                    <div class="swiper-slide">
+                        <p class="desc">
+                             Excelente institución. Hermosos recuerdos!
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                            Yesica Messina
+                            </span>
+                            <span class="position">
+                                Alumno
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <p class="desc">
+                           El ins cuenta con laboratorios de última generación, y sus programas se actualizan cada año,
+                           ofreciendo al alumno una capacitación competitiva que le permite desarrollarse profesionalmente. 
+                           Tenemos convenios con universidades, para aquellos alumnos que desean, una vez terminado, continuar estudios universitarios.
+                        </p>
+                        <div class="person">
+                            <span class="author">
+                            Sofia Rolón
+                            </span>
+                            <span class="position">
+                                Alumno
+                            </span>
+                        </div>
+                    </div>                
                 </div>
 
             </div>
