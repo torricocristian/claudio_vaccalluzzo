@@ -35,49 +35,7 @@
 
     
 
-    <section id="testimonios">
-        <div class="container">
-            <h2 class="title__primary">Alumnos x Claudio</h2>
-            <div class="swiper mySwiper">
-                <div class="swiper-wrapper">
-     
-                    <div class="swiper-slide">
-                        <p class="desc">
-                            Gracias a Claudio Vaccalluzzo me surgió la pasión por arduino y la programación.
-                        </p>
-                        <div class="person">
-                            <span class="author">
-                                Dante Kempfen
-                            </span>
-                            <span class="position">
-                                Alumno
-                            </span>
-                        </div>
-                    </div>
-
-                    <div class="swiper-slide">
-                        <p class="desc">
-                            Gracias a Claudio Vaccalluzzo me surgió la pasión por arduino y la programación.
-                        </p>
-                        <div class="person">
-                            <span class="author">
-                                Dante Kempfen
-                            </span>
-                            <span class="position">
-                                Alumno
-                            </span>
-                        </div>
-                    </div>
-
-
-                </div>
-
-            </div>
-
-            <div class="swiper-pagination"></div>
-
-        </div>
-    </section>
+    
 
 
     
